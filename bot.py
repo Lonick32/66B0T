@@ -12,6 +12,7 @@ async def on_ready():
 
 @bot.command()
 async def say (msg)
+  await bot.say(msg)
 
 
 
